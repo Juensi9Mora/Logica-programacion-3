@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora de factorial</title>
+  <!-- Fuentes de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+  <main class="panel">
+    <header class="titulo">
+      <h1>Calculadora de factorial</h1>
+    </header>
+
+    <!-- Formulario con boton Enter -->
+    <form id="formulario" novalidate>
+      <label for="numero">Ingresa un número entero</label>
+      <input type="number" id="numero" placeholder="Ej: 5" autocomplete="off">
+      <button type="submit">Calcular</button>
+    </form>
+
+    <!-- Aqui el resultado o muestra del error-->
+    <section class="salida" aria-live="polite">
+      <p id="operacion"></p>
+      <p id="resultado">Esperando datos…</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
