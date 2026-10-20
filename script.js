@@ -44,7 +44,7 @@ formulario.addEventListener("submit", function (evento) {
   evento.preventDefault(); 
 // Si lo que escribe es un string 
   const texto = inputNumero.value.trim();
-         // debe escribir un numero para que funcione
+         // debe escribir un numero para que funcioneq
         if (texto === "") {
         mostrarError("Escribe un número para calcular.");
             return;
